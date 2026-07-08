@@ -1,0 +1,152 @@
+[
+  {
+    "name": "gradient-button",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/gradient-button.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "split-text",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/split-text.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "glowing-card",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/glowing-card.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "blob-background",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/blob-background.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "pulse-loader",
+    "type": "components:ui",
+    "dependencies": ["framer-motion"],
+    "files": [{ "path": "ui/pulse-loader.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "fade-in",
+    "type": "components:ui",
+    "dependencies": ["framer-motion"],
+    "files": [{ "path": "ui/fade-in.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "confetti",
+    "type": "components:magicui",
+    "dependencies": ["canvas-confetti", "@types/canvas-confetti"],
+    "files": [{ "path": "magicui/confetti.tsx", "type": "components:magicui" }]
+  },
+  {
+    "name": "glare-hover",
+    "type": "components:magicui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "magicui/glare-hover.tsx", "type": "components:magicui" }]
+  },
+  {
+    "name": "animated-theme-toggler",
+    "type": "components:magicui",
+    "dependencies": ["next-themes", "lucide-react"],
+    "files": [{ "path": "magicui/animated-theme-toggler.tsx", "type": "components:magicui" }]
+  },
+  {
+    "name": "bento-grid",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/bento-grid.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "marquee",
+    "type": "components:ui",
+    "dependencies": ["clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/marquee.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "spotlight-card",
+    "type": "components:ui",
+    "dependencies": ["clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/spotlight-card.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "dock",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/dock.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "text-shimmer",
+    "type": "components:ui",
+    "dependencies": ["clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/text-shimmer.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "code-window",
+    "type": "components:ui",
+    "dependencies": ["clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/code-window.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "agent-chat-bubble",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/agent-chat-bubble.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "gradient-mesh-background",
+    "type": "components:ui",
+    "dependencies": ["clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/gradient-mesh-background.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "scroll-scrub-section",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/scroll-scrub-section.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "site-grid-gallery",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/site-grid-gallery.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "pricing-toggle",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/pricing-toggle.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "stat-counter",
+    "type": "components:ui",
+    "dependencies": ["framer-motion"],
+    "files": [{ "path": "ui/stat-counter.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "card-swipe",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge"],
+    "files": [{ "path": "ui/card-swipe.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "accordion",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge", "lucide-react"],
+    "files": [{ "path": "ui/accordion.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "stepper",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge", "lucide-react"],
+    "files": [{ "path": "ui/stepper.tsx", "type": "components:ui" }]
+  },
+  {
+    "name": "animated-tabs",
+    "type": "components:ui",
+    "dependencies": ["framer-motion", "clsx", "tailwind-merge", "@radix-ui/react-tabs"],
+    "files": [{ "path": "ui/animated-tabs.tsx", "type": "components:ui" }]
+  }
+]

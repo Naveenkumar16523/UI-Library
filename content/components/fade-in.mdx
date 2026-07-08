@@ -1,0 +1,29 @@
+---
+title: Fade In
+description: An elegant scroll-reveal fade-in animation.
+category: Animations
+date: 2024-05-25
+---
+
+The `FadeIn` component wraps any content and reveals it with a smooth animation as it scrolls into view, using Framer Motion's `useInView` hook.
+
+<ComponentPreview name="fade-in" />
+
+## Installation
+
+Run the following command to add this component to your project:
+
+```bash
+npx shadcn@latest add https://example.com/registry/fade-in.json
+```
+
+Or you can manually copy and paste the code into your project.
+
+## Props
+
+| Prop | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| `children` | `React.ReactNode` | - | Content to be animated. |
+| `delay` | `number` | `0` | Delay before animation starts. |
+| `direction` | `"up" \| "down" \| "left" \| "right" \| "none"` | `"up"` | Direction from which the content enters. |
+| `fullWidth` | `boolean` | `false` | Whether the wrapper should take full width. |

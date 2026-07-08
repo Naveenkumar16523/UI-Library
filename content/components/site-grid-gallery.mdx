@@ -1,0 +1,26 @@
+---
+title: Site Grid Gallery
+description: A beautiful, filterable grid of cards for showcasing components or projects.
+category: Layouts
+date: 2024-05-18
+---
+
+# Site Grid Gallery
+
+A fully functional, animated filtering grid. It uses `framer-motion` layout animations to smoothly rearrange cards when categories are toggled.
+
+## Usage
+
+```tsx
+import { SiteGridGallery } from "@/components/ui/site-grid-gallery";
+
+export default function GalleryDemo() {
+  const items = [
+    { id: "1", title: "Card 1", category: "UI", href: "#" },
+    { id: "2", title: "Card 2", category: "Layout", href: "#" },
+  ];
+  const categories = ["UI", "Layout"];
+
+  return <SiteGridGallery items={items} categories={categories} />;
+}
+```

@@ -1,0 +1,26 @@
+---
+title: Bento Grid
+description: A beautiful responsive bento grid layout with staggered animations.
+category: Layouts
+date: 2024-05-18
+---
+
+# Bento Grid
+
+A staggered animated grid layout perfect for highlighting features, capabilities, or pricing. Reuses the `fade-in` primitive for smooth entrances.
+
+## Usage
+
+```tsx
+import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
+
+export default function BentoDemo() {
+  return (
+    <BentoGrid>
+      <BentoGridItem title="Feature A" description="A great feature" />
+      <BentoGridItem title="Feature B" description="Another great feature" />
+      <BentoGridItem title="Feature C" description="Yet another feature" />
+    </BentoGrid>
+  );
+}
+```

@@ -1,0 +1,26 @@
+---
+title: Marquee
+description: An infinite scrolling component perfect for logos and testimonials.
+category: Layouts
+date: 2024-05-18
+---
+
+# Marquee
+
+An infinite scrolling marquee component that pauses on hover and respects `prefers-reduced-motion` settings.
+
+## Usage
+
+```tsx
+import { Marquee } from "@/components/ui/marquee";
+
+export default function MarqueeDemo() {
+  return (
+    <Marquee pauseOnHover>
+      <div>Logo 1</div>
+      <div>Logo 2</div>
+      <div>Logo 3</div>
+    </Marquee>
+  );
+}
+```

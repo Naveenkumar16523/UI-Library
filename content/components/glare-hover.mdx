@@ -1,0 +1,27 @@
+---
+title: Glare Hover
+description: A glare effect that follows your mouse when you hover over the card.
+category: Cards
+date: 2024-05-18
+---
+
+# Glare Hover Card
+
+A beautiful 3D tilt effect with a glare overlay that responds to mouse position. Perfect for premium feature cards and pricing tiers.
+
+## Usage
+
+```tsx
+import { GlareCard } from "@/components/magicui/glare-hover";
+
+export default function GlareDemo() {
+  return (
+    <div className="flex h-[400px] w-full items-center justify-center p-8">
+      <GlareCard className="flex flex-col items-center justify-center">
+        <h3 className="text-xl font-bold text-white">Glare Effect</h3>
+        <p className="text-white/80">Hover over me!</p>
+      </GlareCard>
+    </div>
+  );
+}
+```

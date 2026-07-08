@@ -1,0 +1,31 @@
+---
+title: Stepper
+description: A multi-step progress indicator with animated connecting lines.
+category: Navigation
+---
+
+## Overview
+
+The `Stepper` component provides a clear visual indication of a multi-step process. It uses `framer-motion` to animate the progress bar filling up between steps.
+
+<ComponentPreview name="stepper" />
+
+## Installation
+
+```bash
+npx shadcn-ui@latest add stepper
+```
+
+## Usage
+
+Provide an array of `Step` objects and control the `currentStep` index (0-based) from your parent component's state.
+
+```tsx
+const steps = [
+  { title: "Step 1", description: "First step" },
+  { title: "Step 2", description: "Second step" },
+  { title: "Step 3", description: "Third step" },
+];
+
+<Stepper steps={steps} currentStep={1} />
+```

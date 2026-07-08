@@ -1,0 +1,24 @@
+---
+title: Stat Counter
+description: A beautifully animated number counter for statistics and metrics.
+category: UI Elements
+date: 2024-05-18
+---
+
+# Stat Counter
+
+An intersection-aware number counter. It animates up (or down) to a target value using a spring physics simulation when scrolled into view.
+
+## Usage
+
+```tsx
+import { StatCounter } from "@/components/ui/stat-counter";
+
+export default function CounterDemo() {
+  return (
+    <div className="text-4xl font-bold">
+      <StatCounter value={10000} />+
+    </div>
+  );
+}
+```

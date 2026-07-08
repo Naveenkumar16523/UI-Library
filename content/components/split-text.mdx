@@ -1,0 +1,28 @@
+---
+title: Split Text
+description: Animates text word by word or character by character.
+category: Text Animations
+date: 2024-05-21
+---
+
+The `SplitText` component uses Framer Motion's stagger capability to animate words sequentially, creating a pleasing typewriter-like reveal effect.
+
+<ComponentPreview name="split-text" />
+
+## Installation
+
+Run the following command to add this component to your project:
+
+```bash
+npx shadcn@latest add https://example.com/registry/split-text.json
+```
+
+Or you can manually copy and paste the code into your project.
+
+## Props
+
+| Prop | Type | Default | Description |
+| :--- | :--- | :--- | :--- |
+| `text` | `string` | - | The text to split and animate. |
+| `delay` | `number` | `0.05` | The stagger delay between each word. |
+| `className` | `string` | - | Additional CSS classes for the container. |

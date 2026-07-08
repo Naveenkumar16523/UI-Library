@@ -1,0 +1,26 @@
+---
+title: Gradient Mesh Background
+description: A beautiful, organic, blurry gradient mesh background perfect for hero sections.
+category: Backgrounds
+date: 2024-05-18
+---
+
+# Gradient Mesh Background
+
+A premium, Apple-style gradient mesh. It uses CSS blur filters to create an organic mix of colors, overlaid with a subtle noise texture to reduce banding and add a tactile feel.
+
+## Usage
+
+```tsx
+import { GradientMeshBackground } from "@/components/ui/gradient-mesh-background";
+
+export default function MeshDemo() {
+  return (
+    <GradientMeshBackground className="h-screen w-full">
+      <div className="flex h-full items-center justify-center">
+        <h1 className="text-5xl font-bold">Hero Content</h1>
+      </div>
+    </GradientMeshBackground>
+  );
+}
+```
